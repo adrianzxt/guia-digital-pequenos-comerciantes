@@ -2,3 +2,10 @@
 
 @layer components{
 }
+
+main section{
+    display: none;
+}
+main section:target{
+    display: block;
+}
